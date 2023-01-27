@@ -12,22 +12,21 @@
 .page-texte {
   display: flex;
   flex-direction: column;
+  justify-content: start;
   align-items: flex-start;
+  margin-left: 1em;
 }
 
-
-h1 {
-  font-size: 0.8em;
-  text-align: center;
+.page-title {
+  font-size: 1.2em !important;
+  text-align: left;
   font-weight: 300;
-  margin-bottom: 0;
-  margin-left: 0.5em;
 }
 
 p {
-  font-size: 0.6em;
+  font-size: 0.5em;
   text-align: left;
-  font-weight: 300;
+  font-weight: 200;
   margin-top: 0;
   margin-left: 0.5em;
 }
